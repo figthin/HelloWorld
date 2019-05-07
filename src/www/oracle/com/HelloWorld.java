@@ -1,30 +1,11 @@
 package www.oracle.com;
 
-import java.text.DecimalFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.InputMismatchException;
-import java.util.List;
-import java.util.Map;
 import java.util.Random;
 import java.util.Scanner;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.TreeSet;
 
 public class HelloWorld {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		/*Book book1 = new Book("西游记", 19.9);
 		Book book2 = new Book("红楼梦", 29.9);	
@@ -361,9 +342,68 @@ public class HelloWorld {
 		/*Date date = new Date();
 		System.out.println(date);*/
 		
-		DecimalFormat decimalFormat = new DecimalFormat("#.00");
+		/*DecimalFormat decimalFormat = new DecimalFormat("#.00");
 		double d = 9.659684;
+		System.out.println(decimalFormat.format(d));*/
+		
+		
+		/*Scanner scanner = new Scanner(System.in);
+		int nextInt;
+		while(true) {
+			try {
+				nextInt = scanner.nextInt();
+				System.out.println(nextInt);
+				break;
+			} catch (Exception e) {
+				scanner.next();
+				System.out.println("你输入了非法字符，请重新输入：");
+			}
+			System.out.println("hhhhhhhhhhhhhhhh");
+		}*/
+		
+		
+		/*DecimalFormat decimalFormat = new DecimalFormat("0.00");
+		double d = 8.0000000000000000000002;
 		System.out.println(decimalFormat.format(d));
-	}
+		System.out.println(8.00 + 107.0000000000000000002);*/
+		
+		/*Scanner scanner = new Scanner(System.in);
+		System.out.print("请输入编号：");
+		int nextInt = scanner.nextInt();
+		
+		System.out.println("请输入评价：");
+		StringBuilder str = new StringBuilder();
+		while(scanner.hasNext()) {
+			String next = scanner.next();
+			System.out.println(next.equals("\n"));
+			str.append(next);
+		}
+		System.out.println(str);
+		String nextLine = scanner.nextLine();
+		System.out.println(nextLine);
+		
+		System.out.println("hhhhhhhhhhhhhhhhh");*/
+		
+		/*String s = "";
+		Random random = new Random();
+		for(int i = 0; i < 4; i++) {
+			int nextInt = random.nextInt(26);
+			int r = nextInt + 65;
+			char c = (char) (r);
+			String s.valueOf(c);
+			System.out.println(c);
+			s = s.concat(c)
+		}*/
+		
+		
+		/*int i = 65;
+		char c = (char)i;
+		System.out.println(c);*/
+		Integer a = 128;
+		Integer b = 128;
+		System.out.println(a == b);
+		
+		
+	}	
 	
 }
