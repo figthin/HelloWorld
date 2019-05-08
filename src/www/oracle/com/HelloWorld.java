@@ -396,9 +396,7 @@ public class HelloWorld {
 		}*/
 		
 		
-		/*int i = 65;
-		char c = (char)i;
-		System.out.println(c);*/
+
 		Integer a = 128;
 		Integer b = 128;
 		System.out.println(a == b);	
