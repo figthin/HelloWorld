@@ -401,9 +401,6 @@ public class HelloWorld {
 		System.out.println(c);*/
 		Integer a = 128;
 		Integer b = 128;
-		System.out.println(a == b);
-		
-		
-	}	
-	
+		System.out.println(a == b);	
+	}
 }
